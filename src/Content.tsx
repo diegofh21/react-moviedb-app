@@ -7,7 +7,7 @@ import {
 	FocusableComponentLayout,
 	KeyPressDetails
 } from "@noriginmedia/norigin-spatial-navigation";
-import { result, shuffle } from "lodash";
+import { shuffle } from "lodash";
 import styled from "styled-components";
 
 import { getMovies, getMovieGenres, getMoviesByGenre } from "./api/api";
@@ -187,18 +187,6 @@ const SelectedItemBox = styled.div`
   background-image: url(${(props) => props.color});
   background-size: cover;
   border-radius: 7px;
-`;
-
-const SelectedItemTitle = styled.div`
-  /*position: relative;
-  bottom: 75px;
-  left: 100px;*/
-  position:absolute;
-  bottom: 0;
-  color: white;
-  font-size: 27px;
-  font-weight: 400;
-  font-family: "Satoshi", sans-serif;
 `;
 
 const ScrollingRows = styled.div`
