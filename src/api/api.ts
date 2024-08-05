@@ -4,7 +4,7 @@ import axios from "axios"
 const options = {
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhYjA1ZjQxMjYwZDMwZmFiZjdkNGJiYWZmOGFkNGYzNCIsInN1YiI6IjY1MmFjYzdmMDI0ZWM4MDEwMTUxOTM3MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.mTgkXohlcg20WY_sYV880dVkyVvC1RUp9mQ-TuWLgMQ'
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNzk1NDQ4NThlYzIyZjYyNTY0NGZkNjQ5YzExMTZlYSIsIm5iZiI6MTcyMjgyNTU3NC40ODEwMDMsInN1YiI6IjY1MmFjYzdmMDI0ZWM4MDEwMTUxOTM3MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.RqHtX5QTozUn0cl0CkIEBov81QVBnihr5cyy85Kzs14'
   }
 };
 
